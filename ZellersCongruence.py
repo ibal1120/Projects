@@ -18,7 +18,7 @@ def get_day_of_week(year, month, day):
     return days[H]
 
 # Streamlit UI
-st.title("📅 Day of the Week Finder")
+st.title("Use Zeller's Congruence to Find the Day of the Week!")
 
 year = st.number_input("Enter the year:", min_value=1, value=2024)
 month = st.number_input("Enter the month (1-12):", min_value=1, max_value=12, value=6)
