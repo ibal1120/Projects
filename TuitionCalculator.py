@@ -30,7 +30,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.title("CSN Tuition & Number Analyzer")
-st.subheader("Powered by Streamlit | Styled in Blue & Gold")
+st.subheader("| Powered by Streamlit |")
 
 # Menu
 menu = st.sidebar.selectbox("Choose an Option", ["Tuition Calculator", "Number Statistics", "Exit"])
